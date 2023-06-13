@@ -18,6 +18,9 @@
 </style>
 
 <script setup>
+useHead({
+  title: 'About'
+})
   // const { data } = await useFetch('/api/ninja?name=mario')
   // const { data } = await useFetch('/api/ninja?name=mario', {
   //   method: 'post',
